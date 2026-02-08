@@ -16,7 +16,7 @@
 ### Step 2: Install WSL
 - After restarting, install WSL by following any trusted installation video on YouTube
 - Complete the installation process
-- reference : [Link Text](https://youtu.be/G4AVNkd_u0E?si=vSAVOCtVasxyj_PG)
+- reference : [WSL Installation Tutorial](https://youtu.be/G4AVNkd_u0E?si=vSAVOCtVasxyj_PG)
 
 ### Step 3: Verify WSL Installation
 Run the following command in **PowerShell**:
@@ -45,3 +45,4 @@ Start Menu → Ubuntu
 PowerShell / Command Prompt using wsl
 ```
 Session 1 Completed..!!
+
