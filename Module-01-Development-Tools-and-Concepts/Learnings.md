@@ -32,3 +32,20 @@ This session built a strong foundation for working with Linux-based development 
 - Learned the importance of `sudo` for system-level operations.
 
 This session strengthened my foundational understanding of Linux, Git, and development workflows.
+
+## Week 1 – Session 3 (Learnings)
+
+- Learned the complete operating system boot process.
+- Understood the role of BIOS/UEFI and bootloaders.
+- Learned how cloud infrastructure uses virtualization.
+- Understood the function of hypervisors and RBAC.
+- Gained confidence navigating Linux file systems using WSL.
+- Learned the difference between absolute and relative paths.
+- Understood key differences between Windows and Linux file systems.
+- Learned how Windows drives are mounted inside WSL.
+- Integrated WSL with Visual Studio Code for development.
+- Learned how to install and use UV for Python tooling.
+- Learned to run AI models from the terminal using LLM CLI.
+- Understood how API keys are securely stored.
+
+This session significantly improved my system-level and Linux workflow understanding.
