@@ -1,4 +1,4 @@
-# Why WSL is Needed
+# Need of WSL
 
 ## Purpose of WSL
 - Modern Data Science and development workflows rely on Linux tools
