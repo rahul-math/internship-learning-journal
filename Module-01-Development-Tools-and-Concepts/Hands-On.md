@@ -43,4 +43,21 @@ wsl --version
 ls
 cd
 ```
+Created directories and files:
+```bash
+mkdir test_folder
+touch test_file.txt
+```
+
+Explored Linux directory structure:
+```bash
+ls /
+```
+Observed common directories like /home, /etc, /bin, and /usr.
+
+Learned how sudo is used for administrative tasks.
+
+Session 2 hands-on activities completed successfully.
+
+
 
