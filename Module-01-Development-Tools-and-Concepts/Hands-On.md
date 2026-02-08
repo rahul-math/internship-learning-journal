@@ -59,5 +59,67 @@ Learned how sudo is used for administrative tasks.
 
 Session 2 hands-on activities completed successfully.
 
+## Week 1 – Session 3 (Hands-on)
+
+### OS Boot Process
+- Studied the step-by-step operating system boot process.
+- Understood differences between Linux and Windows boot flows.
+
+### Cloud & Virtualization
+- Learned how cloud data centers use hypervisors.
+- Understood how multiple virtual machines run on one physical server.
+- Learned the purpose of RBAC in cloud environments.
+
+### WSL File System Navigation
+- Created files using:
+```bash
+touch NEWFILE
+```
+Edited files using:
+```bash
+vi NEWFILE
+notepad.exe NEWFILE
+```
+Viewed file contents using:
+```bash
+cat NEWFILE
+```
+Directory Navigation
+Practiced navigation using:
+```bash
+pwd
+ls
+cd
+clear
+```
+Explored Linux directories:
+```bash
+ls /
+```
+Windows File Access
+Navigated Windows files from WSL:
+```bash
+cd /mnt/c/Users
+```
+VS Code Integration
+```bash
+
+Opened project using:
+
+code .
+Used Linux terminal directly inside VS Code.
+```
+Installing Tools
+Installed UV:
+```bash
+pip install uv
+```
+Installed and tested LLM CLI:
+```bash
+uv tool install llm
+llm "Explain Linux commands"
+```
+Session 3 hands-on completed successfully.
+
 
 
