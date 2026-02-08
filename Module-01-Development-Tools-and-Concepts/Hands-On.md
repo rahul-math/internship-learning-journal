@@ -1,6 +1,5 @@
 
 # 🛠️ Hands-On Practice
-# Chapter 1: Foundation
 ## Week 1 – Session 1 (Hands-on)
 
 ### WSL Installation on Windows
@@ -44,3 +43,4 @@ wsl --version
 ls
 cd
 ```
+
