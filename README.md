@@ -41,9 +41,30 @@ Course Link: https://tds.s-anand.net/#/
 ---
 
 ## 🚀 Key Learnings So Far
-- (Update weekly)
-- Example: Understood system architecture basics
-- Example: Learned how APIs work
+# 🌟 Overall Key Learning – Week 1
+
+**Week 1 was all about building a rock-solid foundation for modern software development—both technically and mentally.**
+
+The biggest takeaway is this:
+
+You learned how professional developers actually work in real-world environments.
+
+Across the week, you moved from “using a computer” to “operating like a developer” by:
+
+Understanding why Linux/Unix systems dominate development and how WSL bridges that power into Windows seamlessly.
+
+Gaining clarity on how operating systems, boot processes, virtualization, and cloud infrastructure fit together—not just tools, but the why behind them.
+
+Becoming comfortable with the Linux terminal, filesystem navigation, permissions, and system-level thinking.
+
+Setting up a production-grade development environment using VS Code, Python tooling, package managers, and AI tooling.
+
+Learning Git and GitHub as workflows, not just commands—version control, collaboration, SSH authentication, pull requests, and productivity tools like Copilot.
+
+Seeing how AI models and APIs integrate directly into developer workflows, preparing you for intelligent application development.
+
+# 💡 In short:
+Week 1 transformed your setup, mindset, and confidence. You now have the environment, tools, and conceptual understanding required to move fast, build correctly, and scale into advanced topics like data science, backend systems, and AI-powered applications.
 
 ---
 
