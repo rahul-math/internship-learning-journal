@@ -121,5 +121,51 @@ llm "Explain Linux commands"
 ```
 Session 3 hands-on completed successfully.
 
+## Week 1 – Session 4 (Hands-on)
+
+### Environment Setup
+- Understood differences between macOS, Linux, and Windows.
+- Chose WSL/Linux-style workflow for development consistency.
+
+### VS Code
+- Installed Visual Studio Code.
+- Connected GitHub account.
+- Enabled GitHub Education Pack.
+- Activated Copilot for AI-assisted coding.
+- Used integrated terminal.
+
+### Homebrew
+- Installed Homebrew.
+- Added brew to PATH.
+- Verified installation.
+- Used brew to manage development tools.
+
+### Pyenv
+- Installed pyenv.
+- Installed multiple Python versions.
+- Set global and local Python versions.
+- Verified Python switching.
+
+### UV
+- Installed UV package manager.
+- Initialized a new Python project.
+- Added and removed dependencies.
+- Observed automatic virtual environment creation.
+- Noted auto Git initialization.
+
+### GitHub CLI
+- Installed GitHub CLI.
+- Authenticated with GitHub.
+- Created repositories from terminal.
+- Pushed local code using gh and git commands.
+
+### LLM Tool
+- Installed LLM CLI using UV.
+- Configured API keys.
+- Tested AI prompts from terminal.
+- Ran commands using Gemini and OpenAI models.
+
+Session 4 hands-on completed successfully.
+
 
 
