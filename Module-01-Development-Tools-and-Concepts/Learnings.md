@@ -64,3 +64,18 @@ This session significantly improved my system-level and Linux workflow understan
 - Built a complete foundation for building intelligent applications.
 
 This session completed the core development setup required for future projects.
+
+## Week 1 – Session 5 (Learnings)
+
+- Understood the importance of Git for version control.
+- Learned how GitHub enables collaboration and backup.
+- Gained experience installing and configuring Git in WSL.
+- Learned why SSH keys are required for GitHub authentication.
+- Understood how cloning connects local and remote repositories.
+- Practiced the complete Git workflow used in real projects.
+- Learned how to troubleshoot common Git errors.
+- Understood why Linux/WSL provides a smoother Git experience.
+- Learned the role of pull requests in team collaboration.
+- Understood how GitHub Copilot improves developer productivity.
+
+This session completed my foundational Git and GitHub workflow setup.
