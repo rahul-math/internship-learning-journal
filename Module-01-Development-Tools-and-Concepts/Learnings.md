@@ -49,3 +49,18 @@ This session strengthened my foundational understanding of Linux, Git, and devel
 - Understood how API keys are securely stored.
 
 This session significantly improved my system-level and Linux workflow understanding.
+
+## Week 1 – Session 4 (Learnings)
+
+- Learned how to set up a Linux-like development environment.
+- Understood why Unix-based systems are preferred for development.
+- Gained confidence using Visual Studio Code as a primary editor.
+- Learned the role of Homebrew in managing software on macOS.
+- Understood the importance of Python version management using pyenv.
+- Learned how UV simplifies Python project and dependency management.
+- Understood how GitHub CLI removes dependency on browser-based workflows.
+- Learned to interact with AI models directly from the terminal.
+- Understood the importance of API key management.
+- Built a complete foundation for building intelligent applications.
+
+This session completed the core development setup required for future projects.
