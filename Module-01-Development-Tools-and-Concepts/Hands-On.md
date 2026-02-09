@@ -169,3 +169,47 @@ Session 4 hands-on completed successfully.
 
 
 
+---
+
+## Week 1 – Session 5 (Hands-on)
+
+### Git Setup
+- Installed Git inside WSL (Ubuntu).
+- Verified Git installation.
+
+### GitHub Repository
+- Created a new repository on GitHub.
+- Chose repository visibility.
+- Copied repository SSH URL.
+
+### SSH Key Setup
+- Generated SSH key pair.
+- Added public SSH key to GitHub account.
+- Tested SSH connection successfully.
+
+### Cloning Repository
+- Cloned the GitHub repository into WSL.
+- Navigated into the project directory.
+
+### Making Changes
+- Created and edited files locally.
+- Staged changes using:
+```bash
+git add .
+```
+Committed changes:
+```bash
+git commit -m "Initial commit"
+```
+
+Pushed changes to GitHub:
+```bash
+git push
+```
+Troubleshooting
+
+Resolved SSH authentication issues.
+
+Fixed permission-related errors.
+
+Session 5 hands-on completed successfully.
