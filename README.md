@@ -43,28 +43,18 @@ Course Link: https://tds.s-anand.net/#/
 ## 🚀 Key Learnings So Far
 # 🌟 Overall Key Learning – Week 1
 
-**Week 1 was all about building a rock-solid foundation for modern software development—both technically and mentally.**
+Week 1 focused on building a strong foundation for modern software development by combining system-level understanding with practical tooling.
 
-The biggest takeaway is this:
+- Gained clarity on why Linux/Unix systems are preferred for development and how WSL enables seamless Linux usage on Windows.
+- Understood core operating system concepts including boot processes, virtualization, hypervisors, and cloud infrastructure.
+- Developed confidence using the Linux terminal, filesystem navigation, permissions, and system commands.
+- Set up a professional development environment using WSL, Visual Studio Code, Python tooling, and package managers.
+- Learned Git and GitHub as real-world workflows for version control, collaboration, authentication, and project management.
+- Integrated AI tools and APIs directly into the development workflow using terminal-based tooling.
+- Adopted a developer mindset focused on reproducibility, efficiency, and scalability.
 
-You learned how professional developers actually work in real-world environments.
+Overall, Week 1 transformed the system from a regular machine into a production-ready development environment and established the mindset required for advanced software, data science, and AI development.
 
-Across the week, you moved from “using a computer” to “operating like a developer” by:
-
-Understanding why Linux/Unix systems dominate development and how WSL bridges that power into Windows seamlessly.
-
-Gaining clarity on how operating systems, boot processes, virtualization, and cloud infrastructure fit together—not just tools, but the why behind them.
-
-Becoming comfortable with the Linux terminal, filesystem navigation, permissions, and system-level thinking.
-
-Setting up a production-grade development environment using VS Code, Python tooling, package managers, and AI tooling.
-
-Learning Git and GitHub as workflows, not just commands—version control, collaboration, SSH authentication, pull requests, and productivity tools like Copilot.
-
-Seeing how AI models and APIs integrate directly into developer workflows, preparing you for intelligent application development.
-
-# 💡 In short:
-Week 1 transformed your setup, mindset, and confidence. You now have the environment, tools, and conceptual understanding required to move fast, build correctly, and scale into advanced topics like data science, backend systems, and AI-powered applications.
 
 ---
 
