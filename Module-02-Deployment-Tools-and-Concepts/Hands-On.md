@@ -52,3 +52,171 @@
 - Verified ports and network configuration.
 
 Session 1 hands-on completed successfully.
+
+# Week 2 – Session 2 Hands-on
+
+This document records the practical steps performed during the session covering **GitHub Pages**, **FastAPI**, **Vercel deployment**, and **ngrok**.
+
+---
+
+## 1. GitHub Pages – Static Site Deployment
+
+### Steps Performed
+1. Created a new GitHub repository  
+2. Added an `index.html` file  
+3. Enabled GitHub Pages from repository settings  
+4. Selected `main` branch as the source  
+
+### Sample `index.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My GitHub Pages Site</title>
+</head>
+<body>
+  <h1>Hello from GitHub Pages</h1>
+  <p>This is a static website.</p>
+</body>
+</html>
+```
+
+### Result
+- Site deployed successfully  
+- Accessible via:  
+  ```
+  https://<username>.github.io/<repo-name>/
+  ```
+
+---
+
+## 2. FastAPI – Basic API Setup
+
+### Installation
+```bash
+pip install fastapi uvicorn
+```
+
+### Basic FastAPI App (`main.py`)
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello from FastAPI"}
+
+@app.post("/items")
+def create_item(item: dict):
+    return {"received": item}
+```
+
+### Run Locally
+```bash
+uvicorn main:app --reload
+```
+
+### Test Endpoints
+- Browser:  
+  ```
+  http://127.0.0.1:8000
+  ```
+
+- Interactive Docs:  
+  ```
+  http://127.0.0.1:8000/docs
+  ```
+
+---
+
+## 3. FastAPI Automatic Documentation
+
+### Accessed Routes
+- Swagger UI:  
+  ```
+  /docs
+  ```
+
+- ReDoc UI:  
+  ```
+  /redoc
+  ```
+
+### Tested
+- GET requests  
+- POST requests with JSON body  
+
+---
+
+## 4. Vercel Deployment
+
+### Install Vercel CLI
+```bash
+npm install -g vercel
+```
+
+### Login
+```bash
+vercel login
+```
+
+### Project Deployment
+```bash
+vercel
+```
+
+### Production Deployment
+```bash
+vercel --prod
+```
+
+### Required Files
+- `requirements.txt`
+- `vercel.json`
+
+### Sample `vercel.json`
+```json
+{
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ]
+}
+```
+
+---
+
+## 5. ngrok – Exposing Local Server
+
+### Start Tunnel
+```bash
+ngrok http 8000
+```
+
+### Use Cases Tested
+- Sharing local FastAPI app  
+- Webhook testing  
+
+---
+
+## Summary
+This session demonstrated:
+- Static site deployment using GitHub Pages  
+- Creating and running a FastAPI application  
+- Using automatic API documentation  
+- Deploying FastAPI to Vercel  
+- Exposing local servers with ngrok  
+
+---
+
+✅ **End of Session 2 – Hands-on**
