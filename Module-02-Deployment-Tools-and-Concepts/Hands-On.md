@@ -476,3 +476,306 @@ Common GitHub Actions Use Cases
 - Enforce CI/CD pipelines
 ---
 ✅ End of Session 3 – Hands-on
+
+## Week 2 – Session 4 (Hands-On)
+## FastAPI API Building, Testing & Deployment Lab
+
+This practical guide walks you step-by-step through building and deploying a FastAPI backend.
+
+By completing this lab, you will:
+
+✅ Create a FastAPI server from scratch  
+✅ Build multiple endpoints  
+✅ Validate request data  
+✅ Upload files  
+✅ Test APIs using terminal  
+✅ Secure environment variables  
+✅ Containerize using Docker  
+✅ Deploy your app online  
+
+Follow each step carefully and run commands yourself.
+
+---
+
+# 🔹 Step 1 – Setup Project Directory
+
+Create a new workspace:
+
+```bash
+mkdir fastapi-lab
+cd fastapi-lab
+```
+
+---
+
+# 🔹 Step 2 – Install Required Libraries
+
+Install FastAPI and supporting tools:
+
+```bash
+pip install fastapi uvicorn python-multipart python-dotenv
+```
+
+These packages help to:
+
+- build APIs
+- run server
+- upload files
+- manage secrets
+
+---
+
+# 🔹 Step 3 – Create Application File
+
+Create the main file:
+
+```bash
+touch main.py
+```
+
+Paste the following code:
+
+```python
+from fastapi import FastAPI, UploadFile, File
+from pydantic import BaseModel
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+app = FastAPI()
+
+class Student(BaseModel):
+    name: str
+    marks: int
+
+@app.get("/")
+def root():
+    return {"message": "FastAPI is active"}
+
+@app.get("/students/{roll}")
+def get_student(roll: int):
+    return {"roll_number": roll}
+
+@app.get("/search")
+def search(name: str = ""):
+    return {"query": name}
+
+@app.post("/students")
+def create_student(student: Student):
+    return student
+
+@app.post("/file")
+async def upload_file(file: UploadFile = File(...)):
+    return {"filename": file.filename}
+```
+
+---
+
+# 🔹 Step 4 – Launch the Server
+
+Run:
+
+```bash
+uvicorn main:app --reload
+```
+
+Open browser:
+
+```
+http://127.0.0.1:8000
+```
+
+Interactive docs:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+Test all endpoints from Swagger UI.
+
+---
+
+# 🔹 Step 5 – Test Endpoints from Terminal
+
+### Test home route
+
+```bash
+curl http://127.0.0.1:8000/
+```
+
+### Test path parameter
+
+```bash
+curl http://127.0.0.1:8000/students/12
+```
+
+### Test query parameter
+
+```bash
+curl "http://127.0.0.1:8000/search?name=ram"
+```
+
+### Test POST request
+
+```bash
+curl -X POST http://127.0.0.1:8000/students \
+-H "Content-Type: application/json" \
+-d '{"name":"Lakshmi","marks":90}'
+```
+
+---
+
+# 🔹 Step 6 – Try File Upload
+
+Create a sample file:
+
+```bash
+echo "hello" > sample.txt
+```
+
+Upload:
+
+```bash
+curl -X POST http://127.0.0.1:8000/file -F "file=@sample.txt"
+```
+
+---
+
+# 🔹 Step 7 – Create Test Script
+
+Instead of repeating commands, automate testing.
+
+Create:
+
+```bash
+touch run_tests.sh
+```
+
+Add:
+
+```bash
+curl http://127.0.0.1:8000/
+curl http://127.0.0.1:8000/students/1
+curl -X POST http://127.0.0.1:8000/students -H "Content-Type: application/json" -d '{"name":"Test","marks":50}'
+```
+
+Run:
+
+```bash
+bash run_tests.sh
+```
+
+---
+
+# 🔹 Step 8 – Add Environment Variables
+
+Create a secret file:
+
+```bash
+touch .env
+```
+
+Add:
+
+```
+APP_KEY=mysecret123
+```
+
+Access inside Python:
+
+```python
+key = os.getenv("APP_KEY")
+```
+
+This keeps sensitive data safe.
+
+---
+
+# 🔹 Step 9 – Generate requirements.txt
+
+Freeze dependencies:
+
+```bash
+pip freeze > requirements.txt
+```
+
+---
+
+# 🔹 Step 10 – Dockerize the Application
+
+Create:
+
+```bash
+touch Dockerfile
+```
+
+Paste:
+
+```dockerfile
+FROM python:3.10
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+```
+
+---
+
+# 🔹 Step 11 – Build Docker Image
+
+```bash
+docker build -t fastapi-lab .
+```
+
+Run container:
+
+```bash
+docker run -p 7860:7860 fastapi-lab
+```
+
+Open:
+
+```
+http://localhost:7860
+```
+
+---
+
+# 🔹 Step 12 – Deploy Online
+
+Upload your project to a hosting service.
+
+Possible platforms:
+
+- Hugging Face Spaces
+- Render
+- Railway
+- Any Docker host
+
+Upload:
+
+- main.py
+- requirements.txt
+- Dockerfile
+
+After deployment you will receive:
+
+```
+https://your-public-url
+```
+
+Test:
+
+```bash
+curl https://your-public-url
+```
+
+---
+
+## 🎉 Hands-On Lab Completed 🎉
