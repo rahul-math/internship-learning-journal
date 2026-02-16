@@ -142,3 +142,117 @@ This session shifted my perspective from user-level AI to developer-level AI.
 ---
 
 ## 🎉 Week 3 – Session 1 Learnings Completed 🎉
+
+---
+
+# 📚 Week 3 – Session 2 Learnings  
+## Building Semantic Search & RAG Systems
+
+This session strengthened my understanding of how AI retrieval systems work in practice. Instead of just generating answers, I learned how to supply models with relevant information before generating responses.
+
+---
+
+#  Core Insights
+
+##  Embeddings Enable Meaning-Based Search
+
+I learned that embeddings:
+
+- Represent meaning numerically
+- Allow comparison beyond keywords
+- Power semantic similarity engines
+
+This is the backbone of intelligent search.
+
+---
+
+##  Mathematical Similarity Matters
+
+Cosine similarity:
+
+- Quantifies closeness between vectors
+- Produces interpretable similarity scores
+- Enables ranking of relevant documents
+
+Understanding this math clarified how search engines rank results.
+
+---
+
+##  Chunking is Critical for Large Data
+
+Large documents cannot be processed directly.
+
+I learned to:
+
+- Split documents intelligently
+- Maintain logical boundaries
+- Control token size per chunk
+
+Chunking makes RAG scalable.
+
+---
+
+##  RAG Improves Reliability
+
+Instead of relying on model memory:
+
+- Retrieve relevant context
+- Provide it during generation
+- Produce grounded responses
+
+This reduces hallucination significantly.
+
+---
+
+##  Efficient System Design Saves Cost
+
+Important realizations:
+
+- Generate embeddings once
+- Store them
+- Avoid redundant API calls
+- Retrieve only necessary context
+
+Cost optimization is part of AI engineering.
+
+---
+
+##  Multimodal Capabilities Expand Possibilities
+
+The ability to compare:
+
+- Images with text
+- Text with images
+
+opens new applications like visual Q&A systems.
+
+---
+
+##  Deployment Requires Discipline
+
+I understood that AI systems fail if:
+
+- Keys expire
+- URLs are wrong
+- Repositories are private
+- Environment variables are missing
+
+Engineering discipline is essential.
+
+---
+
+#  Personal Growth
+
+Before this session:
+
+ I saw embeddings as theoretical vectors.
+
+After this session:
+
+ I can design and implement a semantic retrieval pipeline using chunking and RAG.
+
+This session connected mathematics, programming, and system design together.
+
+---
+
+##  Week 3 – Session 2 Learnings Completed 🎉
