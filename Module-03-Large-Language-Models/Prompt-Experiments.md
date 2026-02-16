@@ -137,3 +137,141 @@ Prompt engineering is both an art and a systematic process.
 ---
 
 ## 🎉 Prompt Experiment Log Completed 🎉
+
+---
+
+# 🧪 Week 3 – Session 2 Prompt Experiments  
+## Testing Retrieval & Embedding Strategies
+
+This document summarizes practical experiments performed while building a RAG pipeline.
+
+---
+
+#  Experiment 1 – Direct Model Query
+
+Asked:
+"What is TypeScript?"
+
+Without retrieval.
+
+Result:
+- Generic explanation
+- No specific documentation reference
+
+Lesson:
+Direct prompting may lack grounding.
+
+---
+
+#  Experiment 2 – Retrieval-Based Prompt
+
+Process:
+
+- Retrieve Top-5 documentation chunks
+- Provide them to GPT
+- Generate answer
+
+Result:
+- More accurate
+- Context-specific
+- Reduced hallucination
+
+Lesson:
+Context improves reliability.
+
+---
+
+#  Experiment 3 – Top-K Comparison
+
+Compared:
+
+- K=3
+- K=5
+- K=10
+
+Observations:
+
+K=3 → Fast but sometimes incomplete  
+K=5 → Balanced  
+K=10 → Expensive and slightly slower  
+
+Lesson:
+Moderate retrieval size works best.
+
+---
+
+#  Experiment 4 – Chunk Size Testing
+
+Compared:
+
+- Large chunks
+- Medium chunks
+- Small chunks
+
+Findings:
+
+Large → Broader but less precise  
+Medium → Good balance  
+Small → Precise but fragmented  
+
+Lesson:
+Chunk design impacts retrieval quality.
+
+---
+
+#  Experiment 5 – Similarity Score Testing
+
+Tested related vs unrelated phrases.
+
+Observation:
+Semantic similarity scores aligned with conceptual closeness.
+
+Lesson:
+Cosine similarity effectively measures meaning.
+
+---
+
+#  Experiment 6 – Full Context vs RAG
+
+Compared:
+
+- Sending entire document
+- Using RAG retrieval
+
+Observation:
+RAG reduced token cost significantly while maintaining accuracy.
+
+Lesson:
+Selective context is more efficient.
+
+---
+
+#  Experiment 7 – Structured Output
+
+Prompted model to respond in JSON format.
+
+Observation:
+- Clean output
+- Easier integration
+- More predictable structure
+
+Lesson:
+Output formatting improves automation.
+
+---
+
+#  Key Takeaways
+
+From all experiments:
+
+- Retrieval improves factual accuracy
+- Chunk size affects precision
+- Token optimization reduces cost
+- Structured prompts improve integration
+- Multimodal embeddings broaden system capability
+
+Experimentation is necessary to optimize AI systems.
+
+---
+
+##  Prompt Experiments Completed 🎉# 
