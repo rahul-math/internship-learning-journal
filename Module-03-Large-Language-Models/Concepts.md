@@ -347,3 +347,216 @@ Continuous evaluation improves system reliability.
 ---
 
 ##  Week 3 – Session 1 Completed 🎉
+
+# 📘 Week 3 – Session 2  
+## Module 3 – Practical Embeddings, Multimodal AI & RAG Systems
+
+This session focused on building intelligent retrieval systems using embeddings and vector search. The goal was to understand how semantic similarity works in real applications and how Retrieval-Augmented Generation (RAG) improves answer quality.
+
+The session emphasized implementation over theory.
+
+---
+
+#  1. Session Focus
+
+Main topics covered:
+
+- Text embeddings
+- Multimodal embeddings
+- Cosine similarity
+- Vector storage
+- Document chunking
+- RAG pipeline design
+- Deployment troubleshooting
+
+These concepts are central to Project 1.
+
+---
+
+#  2. What Are Embeddings?
+
+Embeddings transform text into numeric vectors.
+
+Key ideas:
+
+- Each sentence becomes a point in multi-dimensional space
+- Similar meanings → closer vectors
+- Used for semantic comparison
+
+Embeddings are:
+
+- Faster than chat models
+- Lower cost for similarity tasks
+
+---
+
+#  3. Generating Embeddings
+
+Two approaches were demonstrated:
+
+1. Local embedding models (Sentence Transformers)
+2. API-based embedding models (e.g., `text-embedding-3-small`)
+
+Both produce fixed-length vectors usable for similarity search.
+
+---
+
+#  4. Measuring Similarity with Cosine Distance
+
+Cosine similarity evaluates how close two vectors are.
+
+Process:
+
+- Compute dot product
+- Normalize vector lengths
+- Output similarity score (0 to 1)
+
+Higher score → stronger conceptual relation.
+
+Example:
+- Related fruits → high similarity
+- Unrelated objects → low similarity
+
+This enables semantic search.
+
+---
+
+# 5. Secure API Key Handling
+
+API keys must be managed safely.
+
+Options:
+
+Temporary:
+```
+export KEY=value
+```
+
+Permanent:
+- Add to `.bashrc`
+
+Never expose keys in public repositories.
+
+---
+
+#  6. Multimodal Embeddings
+
+Multimodal embeddings represent:
+
+- Text
+- Images
+
+in the same vector space.
+
+This allows:
+
+- Image-to-text matching
+- Cross-format similarity
+- Visual content search
+
+Useful for applications like discourse Q&A with images.
+
+---
+
+#  7. Using External Embedding APIs
+
+Multimodal embeddings were demonstrated using an external provider.
+
+Steps:
+
+- Generate API key
+- Send text/image
+- Receive embedding vector
+- Compute similarity score
+
+Matching image and text produced high similarity values.
+
+---
+
+#  8. Role of Vector Databases
+
+Vector databases:
+
+- Store embedding vectors
+- Support fast nearest-neighbor search
+- Scale semantic retrieval systems
+
+They are essential for building production RAG pipelines.
+
+---
+
+# 9. Document Chunking Strategy
+
+Large documents exceed model limits.
+
+Solution: Divide content into chunks.
+
+Chunking process:
+
+- Split markdown files
+- Limit tokens per chunk (e.g., 4096)
+- Assign unique identifiers
+- Generate embeddings per chunk
+
+This makes retrieval efficient.
+
+---
+
+#  10. Retrieval-Augmented Generation (RAG)
+
+RAG combines retrieval with generation.
+
+Workflow:
+
+1. Convert question into embedding
+2. Compare with stored chunk embeddings
+3. Retrieve most relevant chunks
+4. Pass them to GPT
+5. Generate final response
+
+This ensures grounded and accurate answers.
+
+---
+
+#  11. Optimizing Top-K Retrieval
+
+Retrieving Top-K similar chunks balances:
+
+- Accuracy
+- Speed
+- Cost
+
+Smaller K → faster  
+Larger K → more context but higher token usage  
+
+Top-5 worked well in most tests.
+
+---
+
+#  12. Deployment & Debugging
+
+Common problems:
+
+- Repository not public
+- Incorrect project URL
+- Expired API tokens
+- Missing environment variables
+
+Proper configuration is essential.
+
+---
+
+#  13. Importance for Project 1
+
+This session directly supports:
+
+- Semantic search systems
+- Discourse-based Q&A
+- Documentation assistants
+- Efficient API usage
+
+Embeddings + chunking + RAG form the foundation of the project.
+
+---
+
+## Week 3 – Session 2 Concepts Completed 🎉
