@@ -560,3 +560,116 @@ Embeddings + chunking + RAG form the foundation of the project.
 ---
 
 ## Week 3 – Session 2 Concepts Completed 🎉
+
+# 📘 Session 4 – Week 3  
+## Core Concepts in Embeddings, APIs & AI Integration
+
+---
+
+##  Numerical Representation of Meaning
+
+Modern AI systems do not understand words directly.  
+They convert text into numerical vectors called embeddings.
+
+Each word becomes a point in high-dimensional space.
+
+Words with related meanings are positioned closer together.
+
+In our practical work, we generated embeddings for:
+- cat
+- dog
+- cheetah
+- rat
+
+By comparing their vectors, we observed that semantically similar animals had closer vector relationships.
+
+This demonstrates how machines interpret meaning mathematically.
+
+---
+
+##  Measuring Similarity Between Vectors
+
+Two major approaches are used to compare embeddings:
+
+### 1. Euclidean Distance  
+Measures straight-line distance between vectors.  
+Smaller value → more similar.
+
+### 2. Cosine Similarity  
+Measures the angle between vectors.  
+Value closer to 1 → higher similarity.
+
+In NLP systems, cosine similarity is preferred because it focuses on direction rather than magnitude.
+
+---
+
+##  Connecting to AI Models via APIs
+
+To interact with AI models, we used HTTP-based communication.
+
+Using Python's `httpx` library, we:
+- Sent POST requests
+- Added authorization headers
+- Passed JSON payloads
+- Received structured responses
+
+This is how real-world AI applications connect to external models.
+
+---
+
+##  Stateful Conversations in Chat Systems
+
+Instead of sending single prompts, conversational AI requires context.
+
+We structured messages using roles:
+- system
+- user
+- assistant
+
+By continuously appending previous messages, the chatbot was able to maintain memory across interactions.
+
+---
+
+##  Handling Image Data in Text-Based APIs
+
+Since APIs operate using text formats, images must be converted before transmission.
+
+We used Base64 encoding to:
+- Convert image → text string
+- Send encoded string to model
+- Decode text back → image format
+
+This enables multimodal AI interaction.
+
+---
+
+##  Structured Output Using Function Calling
+
+Rather than receiving plain text responses, we implemented function calling.
+
+We defined a schema requiring:
+- product_name
+- manufactured_date
+- expiry_date
+
+After sending a product image (Base64 encoded), the model returned structured JSON.
+
+This allows:
+- Automated data processing
+- Direct database insertion
+- Clean machine-readable output
+
+---
+
+##  Multimodal Intelligence
+
+Embeddings are not limited to text.
+
+Different data types like:
+- Images
+- Text
+- Audio
+
+can be mapped into the same vector space.
+
+This enables cross-modal comparison, such as comparing text descriptions with images.
