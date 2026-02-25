@@ -275,3 +275,106 @@ Experimentation is necessary to optimize AI systems.
 ---
 
 ##  Prompt Experiments Completed 🎉# 
+
+#  Experimental Work – Session 4
+
+---
+
+##  Experiment 1: Vector Relationship Testing
+
+Objective:
+Examine how embeddings capture semantic closeness.
+
+Procedure:
+Generated embeddings for cat, dog, cheetah, and rat.
+
+Result:
+Cheetah and cat showed highest similarity.
+Dog was also closely related.
+Rat was comparatively distant.
+
+Conclusion:
+Embedding vectors reflect semantic meaning.
+
+---
+
+## Experiment 2: Context-Aware Chatbot
+
+Objective:
+Create a chatbot that remembers prior interaction.
+
+Method:
+Stored all messages with defined roles and passed full history in each request.
+
+Result:
+Responses were context-aware and logically consistent.
+
+Conclusion:
+Conversation history enables intelligent dialogue systems.
+
+---
+
+##  Experiment 3: HTTP-Based AI Communication
+
+Objective:
+Understand backend communication with AI models.
+
+Method:
+Used httpx to send structured POST requests with authentication headers and JSON payload.
+
+Result:
+Successfully received structured responses from model.
+
+Conclusion:
+API communication is foundational for AI-powered applications.
+
+---
+
+##  Experiment 4: Image Encoding Workflow
+
+Objective:
+Transmit image data through a text-based API.
+
+Method:
+Encoded image to Base64.
+Sent encoded string.
+Decoded it back after processing.
+
+Result:
+Image transmission worked successfully.
+
+Conclusion:
+Base64 bridges binary data and text-based communication systems.
+
+---
+
+##  Experiment 5: Structured Information Extraction
+
+Objective:
+Extract product details from image input.
+
+Method:
+Used function calling with predefined schema.
+
+Extracted Fields:
+- product_name
+- manufactured_date
+- expiry_date
+
+Result:
+Received structured JSON response.
+
+Conclusion:
+Function calling makes AI outputs reliable for automation and real-world applications.
+
+---
+
+##  Final Insight
+
+These experiments strengthened my understanding of:
+
+- Embedding mathematics
+- Cosine similarity application
+- Stateful chat systems
+- Multimodal data handling
+- Structured AI output generation
