@@ -256,3 +256,84 @@ This session connected mathematics, programming, and system design together.
 ---
 
 ##  Week 3 – Session 2 Learnings Completed 🎉
+
+
+#  Session 4 – Week 3 Reflections & Learnings
+
+---
+
+##  Deeper Understanding of Embeddings
+
+Before this session, embeddings were theoretical.
+
+Now I understand that:
+- Words are converted into vectors.
+- Meaning is represented mathematically.
+- Similar words have closer vector positions.
+
+Comparing cat, dog, cheetah, and rat made this concept practical and clear.
+
+---
+
+##  Applying Mathematical Similarity
+
+By calculating cosine similarity, I observed how AI determines relatedness.
+
+This helped me see how:
+- Recommendation systems work
+- Semantic search retrieves relevant results
+- AI measures contextual closeness
+
+---
+
+##  API-Based Model Interaction
+
+I gained hands-on experience in:
+- Structuring HTTP requests
+- Handling authentication headers
+- Passing JSON data
+- Parsing structured API responses
+
+This strengthened my backend integration skills.
+
+---
+
+##  Designing Conversational Systems
+
+Maintaining conversation history showed me how chat-based AI systems retain context.
+
+Instead of isolated prompts, structured role-based messaging creates intelligent dialogue flow.
+
+---
+
+##  Practical Image Processing
+
+Converting images to Base64 and decoding them back gave me insight into how image-based AI systems operate over text-based APIs.
+
+I now understand how multimodal systems manage data transmission.
+
+---
+
+##  Structured Data Extraction Using Function Calling
+
+The most impactful learning was implementing function calling.
+
+By defining expected fields and sending a product image, I received clean JSON output containing:
+- Product name
+- Manufacturing date
+- Expiry date
+
+This demonstrated how AI can be integrated into automation pipelines.
+
+---
+
+##  Overall Growth
+
+This session helped me combine:
+- Mathematics (vector similarity)
+- Programming (API integration)
+- AI architecture (chat systems)
+- Multimodal processing (image + text)
+- Automation (structured outputs)
+
+It significantly improved my practical AI development skills.
