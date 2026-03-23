@@ -170,9 +170,15 @@ Overall, Week 7 emphasized that effective data work is not just about analysis, 
 ---
 
 ## 🔄 Weekly Update Log
-| Week | What I Learned |
-|------|----------------|
-| Week 1 | |
-| Week 2 | |
+
+| Week   | What I Learned                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------|
+| Week 1 | Linux setup (WSL), terminal skills, Git workflows, Python environment management, OS fundamentals        |
+| Week 2 | Docker/Podman containers, FastAPI backend development, CI/CD pipelines, cloud deployment                 |
+| Week 3 | LLM fundamentals, embeddings, RAG systems, semantic search, APIs, structured outputs                     |
+| Week 4 | Web scraping, API data collection, PDF extraction, caching, data structuring (JSON/CSV)                  |
+| Week 5 | Data cleaning, Excel & OpenRefine usage, CLI data processing, API handling, media processing             |
+| Week 6 | EDA, statistical analysis, Pandas & DuckDB, outlier handling, geospatial insights                         |
+| Week 7 | Data visualization, storytelling, heatmaps, network analysis, interactive and dynamic visual tools       |
 
 ---
