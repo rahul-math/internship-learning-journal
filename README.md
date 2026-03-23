@@ -75,6 +75,24 @@ Overall, Week 2 marked the transition from *writing code* to *shipping systems*,
 
 ---
 
+# 🌟 **Overall Key Learning – Week 3**
+
+Week 3 emphasized evolving from basic AI usage to **building structured, scalable AI systems** with a strong focus on real-world implementation and reliability.
+
+- Built a clear understanding of how LLMs function internally (tokens, transformers, prediction-based outputs).
+- Recognized token usage as a key factor in both system efficiency and cost control.
+- Learned how embeddings power semantic understanding and enable intelligent search systems.
+- Applied RAG (Retrieval-Augmented Generation) to improve response accuracy and reduce hallucinations.
+- Designed semantic search pipelines using chunking, cosine similarity, and vector storage.
+- Explored combining keyword and semantic search for more robust and practical retrieval systems.
+- Gained exposure to multimodal AI, working with both text and image-based inputs.
+- Implemented structured outputs and function calling to integrate AI into automated workflows.
+- Strengthened API integration skills and learned how to manage conversational context in applications.
+- Understood the importance of testing, evaluation, and proper system setup for reliable deployments.
+
+Overall, Week 3 marked a shift toward thinking like an AI engineer—focusing on system design, reliability, and building end-to-end intelligent applications.
+
+---
 ## ❓ Doubts / Topics to Revisit
 - Topic 1  
 - Topic 2  
