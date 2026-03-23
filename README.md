@@ -146,6 +146,23 @@ Overall, Week 6 emphasized that effective data analysis is not just about tools,
 
 ---
 
+# 🌟 **Overall Key Learning – Week 7**
+
+Week 7 focused on **data visualization and storytelling**, emphasizing how to transform data into clear insights and communicate them effectively.
+
+- Understood different levels of data analysis, from basic trends to advanced pattern recognition using heatmaps and correlation matrices.
+- Learned that data cleaning is a critical and time-consuming step, involving fixing types, handling missing values, and removing inconsistencies.
+- Explored efficient handling of large datasets using techniques like sparse matrices to improve performance.
+- Gained insights into network analysis, understanding relationships through nodes, edges, and clustering patterns.
+- Developed data storytelling skills using multiple formats such as charts, text, and visual narratives.
+- Learned how to create dynamic and automated insights using formulas and linked visual elements.
+- Understood the role of animation in visualizations to represent changes over time effectively.
+- Explored various visualization tools (Excel, Seaborn, Flourish, RAWGraphs, Kumu) for different use cases.
+- Discovered modern tools like marimo for reproducible and reactive data workflows.
+
+Overall, Week 7 emphasized that effective data work is not just about analysis, but about communicating insights clearly through visualization and storytelling.
+
+---
 ## ❓ Doubts / Topics to Revisit
 - Topic 1  
 - Topic 2  
