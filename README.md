@@ -93,6 +93,23 @@ Week 3 emphasized evolving from basic AI usage to **building structured, scalabl
 Overall, Week 3 marked a shift toward thinking like an AI engineer—focusing on system design, reliability, and building end-to-end intelligent applications.
 
 ---
+
+# 🌟 **Overall Key Learning – Week 4**
+
+Week 4 focused on **data sourcing and preparation**, building the foundation required for creating reliable AI systems by collecting and structuring real-world data.
+
+- Learned how semantic search systems work by building a prototype that retrieves results based on meaning rather than just keywords.
+- Gained hands-on experience in web scraping using tools like HTTPX, BeautifulSoup, and XPath to collect large-scale data from websites.
+- Understood the importance of caching to improve efficiency, reduce redundant requests, and make data pipelines more reliable.
+- Learned how to structure extracted data into formats like JSON and CSV for easy processing and indexing.
+- Explored alternative data collection methods such as extracting tables from websites using Excel and from PDFs using tools like Tabula.
+- Developed debugging skills using print statements, breakpoints, and logical reasoning techniques.
+- Recognized the importance of experimentation and iterative learning while building data systems.
+
+Overall, Week 4 emphasized building strong data pipelines—transforming raw, unstructured data into clean, structured inputs ready for AI applications.
+
+---
+
 ## ❓ Doubts / Topics to Revisit
 - Topic 1  
 - Topic 2  
