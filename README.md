@@ -126,6 +126,26 @@ Week 5 focused on **data preparation**, emphasizing how raw data must be cleaned
 Overall, Week 5 emphasized transforming messy, raw data into clean, structured, and analysis-ready datasets—an essential step for any data or AI workflow.
 
 ---
+
+# 🌟 **Overall Key Learning – Week 6**
+
+Week 6 focused on **data analysis and interpretation**, combining tools, statistical thinking, and critical reasoning to extract meaningful insights from data.
+
+- Learned to use essential tools like Pandas for data manipulation, DuckDB for large-scale analysis, and Excel for quick exploration and visualization.
+- Used AI tools effectively to speed up coding and understanding, while maintaining a habit of verifying outputs.
+- Understood the importance of Exploratory Data Analysis (EDA) to examine data structure, missing values, and feature distributions before modeling.
+- Strengthened statistical understanding, including concepts like correlation vs causation, R², and p-values.
+- Learned how to detect and handle outliers using methods like IQR while considering their real-world significance.
+- Used visualization techniques (heatmaps, scatter plots, box plots) to better understand patterns and relationships in data.
+- Selected appropriate approaches based on the problem, such as linear models for trends and ETS for seasonal data.
+- Explored geospatial thinking for real-world applications like market analysis and location planning.
+- Focused on efficiency by using better data formats (Parquet) and optimized tools (DuckDB).
+- Developed a critical mindset to question results and ensure data reliability.
+
+Overall, Week 6 emphasized that effective data analysis is not just about tools, but about combining technical skills, statistical reasoning, and critical thinking to generate actionable insights.
+
+---
+
 ## ❓ Doubts / Topics to Revisit
 - Topic 1  
 - Topic 2  
