@@ -110,6 +110,22 @@ Overall, Week 4 emphasized building strong data pipelines—transforming raw, un
 
 ---
 
+# 🌟 **Overall Key Learning – Week 5**
+
+Week 5 focused on **data preparation**, emphasizing how raw data must be cleaned, transformed, and structured before it can be reliably analyzed or used in AI systems.
+
+- Understood the importance of data cleaning to handle duplicates, missing values, and inconsistencies that affect analysis quality.
+- Gained hands-on experience using Excel for data preparation, including functions like TRIM, Find & Replace, removing duplicates, and pivot tables.
+- Learned automated data profiling to quickly analyze datasets and identify issues such as missing values, distributions, and outliers.
+- Explored tools like OpenRefine for detecting and standardizing inconsistent data using clustering techniques.
+- Used Unix command-line tools (grep, sort, uniq, wc) for efficient processing of large datasets and logs.
+- Worked with APIs to fetch and process structured data programmatically using JSON.
+- Explored basic image and media processing using tools like Pillow and FFmpeg.
+- Utilized code editors like VS Code for quick data cleaning using multi-cursor editing and search/replace.
+
+Overall, Week 5 emphasized transforming messy, raw data into clean, structured, and analysis-ready datasets—an essential step for any data or AI workflow.
+
+---
 ## ❓ Doubts / Topics to Revisit
 - Topic 1  
 - Topic 2  
